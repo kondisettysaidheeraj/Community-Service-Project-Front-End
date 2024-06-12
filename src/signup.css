@@ -1,0 +1,46 @@
+/* signup.css */
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.input-border {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 3px;
+  outline: none;
+  transition: border-color 0.3s ease; /* Add transition for border color change */
+}
+
+.input-border[type="password"] {
+  /* Styling for password field */
+  border-color: #ffa500; /* Orange border color */
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, margin-top 0.3s ease; 
+  margin-left: 10px;
+}
+
+.button:hover {
+  background-color:  #4CAF50;
+  margin-top: 5px; 
+}
+#psw {
+  border: 1px solid #4CAF50;
+  padding: 10px;
+  width: 300px;
+  text-align: left;
+}
+ 
